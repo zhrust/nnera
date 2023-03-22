@@ -5,7 +5,9 @@ edition = "2021"
 
 authors = ["Zoom.Quiet <zoomquiet+rs@gmail.com>"]
 #author = "Zoom.Quiet <zoomquiet+rs@gmail.com>"
-license = "BSD 2-Clause License"
+#license = "BSD 2-Clause License"
+license-file = "LICENSE"
+
 description = "a private date-stamp CLI tool for NNera echo/check/..."
 readme = "README.md"
 homepage = "https://rs.101.so/dev/cli_nnera.html"
