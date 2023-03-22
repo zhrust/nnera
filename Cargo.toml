@@ -1,0 +1,30 @@
+[package]
+name = "nn"
+version = "23.214.42"
+edition = "2021"
+
+authors = ["Zoom.Quiet <zoomquiet+rs@gmail.com>"]
+#author = "Zoom.Quiet <zoomquiet+rs@gmail.com>"
+license = "BSD 2-Clause License"
+description = "a private date-stamp CLI tool for NNera echo/check/..."
+readme = "README.md"
+homepage = "https://rs.101.so/dev/cli_nnera.html"
+repository = "https://github.com/zhrust/nnera"
+keywords = ["cli", "date", "stamp"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# ...
+#rustflags = ["-A", "clippy::all=off"]
+
+[dependencies]
+log = "0.4"
+tracing = "0.1"
+clia-tracing-config = "0.2"
+chrono = "0.4.23"
+structopt = { version = "0.3", default-features = false }
+
+[dev-dependencies]
+#assert_cmd = "2"
+#predicates = "2"
+
