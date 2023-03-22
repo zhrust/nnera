@@ -9,7 +9,7 @@
 use structopt::StructOpt;
 
 //use nn::{Command, Opt};
-use nn::Opt;
+use nnera::Opt;
 
 fn main() {
     //println!("Hello, world!");
@@ -18,7 +18,7 @@ fn main() {
 
     let opt = Opt::from_args();
     //opt.run();
-    nn::run(opt);
+    nnera::run(opt);
 
     //log::debug!("NN:\n\t {:?}",args);
 }
